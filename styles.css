@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.bg-primary {
+    background-color: #0056b3 !important;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body i {
+    font-size: 48px;
+    color: #0056b3;
+    margin-top: 15px;
+}
